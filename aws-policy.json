@@ -1,0 +1,28 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "autoscaling:Describe*",
+        "cloudwatch:Describe*",
+        "cloudwatch:Get*",
+        "cloudwatch:List*",
+        "ec2:Describe*",
+        "elasticloadbalancing:Describe*",
+        "rds:DescribeDBInstances",
+        "rds:DescribeEvents",
+        "rds:List*",
+        "dynamodb:DescribeTable",
+        "dynamodb:ListTables",
+        "lambda:ListFunctions",
+        "lambda:GetFunction",
+        "elasticbeanstalk:DescribeEnvironments",
+        "elasticbeanstalk:DescribeEnvironmentResources",
+        "s3:ListAllMyBuckets",
+        "sts:GetCallerIdentity"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
